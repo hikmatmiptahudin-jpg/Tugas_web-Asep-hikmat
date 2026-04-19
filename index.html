@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas Lab Web - Teknik Informatika UMMI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Portofolio Mahasiswa</h1>
+        <p>Teknik Informatika UMMI</p>
+    </header>
+
+    <main class="container">
+        <section class="card">
+            <img src="foto.jpg" alt="Foto Profil" class="profile-img">
+            
+            <h2 id="nama-user">Asep Hikmat Miptahudin</h2>
+            
+            <div class="identitas">
+                <p><strong>NIM:</strong> 2430511015</p>
+                <p><strong>Kelas:</strong> 4A</p>
+                <p><strong>Hobi:</strong> Otomotif</p>
+            </div>
+            
+            <p class="bio">Fullstack Developer Enthusiast</p>
+            
+            <div class="stats">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Mata Kuliah</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Pemrograman Web</td>
+                            <td>Aktif</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="form-update">
+                <input type="text" id="input-nama" placeholder="Ketik nama baru...">
+                <button id="btn-ubah-nama">Update Nama</button>
+            </div>
+
+            <button id="btn-interaksi">Ubah Mode Tampilan</button>
+            
+            <p id="pesan-log"></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 - Hikmat Miptahudin</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
