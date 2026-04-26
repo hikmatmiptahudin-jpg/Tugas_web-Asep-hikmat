@@ -120,3 +120,22 @@ footer {
 .dark-mode th { background-color: #333; color: white; }
 .dark-mode td { border-color: #444; }
 .dark-mode .identitas { background-color: #333; }
+
+.form-tambah {
+    margin-top: 25px;
+    padding-top: 20px;
+    border-top: 2px dashed #ddd;
+    text-align: left;
+}
+
+.form-tambah h3 {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    color: #2c3e50;
+}
+
+.form-tambah form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
